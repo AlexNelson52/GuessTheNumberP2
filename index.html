@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="headerDiv">
+    <button type="button" class="againButton">Again!</button>
+    <p class="headerP">(Between 1 and 20)</p>
+  </div>
+  <div class="guessNum">Guess My Number!</div>
+  <div class="middleContainer">
+    <div class="lineDiv"></div>
+    <div class="theNumberDiv">?</div>
+    <div class="lineDiv"></div>
+  </div>
+  <div class="bottomDiv">
+    <div class="rightSide">
+      <div class="pNumberDiv">
+        <form id="formContainer" action="#">
+          <input id="userNumber" type="Number" name="userInputNumber" placeholder="num">
+        </form>
+      </div>
+      <div class="bottomButtonDiv">
+        <div class="leftSideDiv">
+
+          <button class="checkButton" type="submit" form="formContainer" value="Submit">Check!</button>
+        </div>
+      </div>
+    </div>
+    <div class="bottomRightDiv">
+      <div class="numberTextDiv">
+        <div class="correctNumberDiv"></div>
+        <p class="correctNumber">Correct Number!</p>
+      </div>
+      <div class="scoreText">
+        <div class="scoreDiv">
+          <p class="scoreText">Score: </p>
+          <p class="score"></p>
+        </div>
+        <p class="HighscoreText">Highscore: </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <script src=" index.js"></script>
+</body>
+
+</html>
