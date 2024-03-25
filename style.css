@@ -156,7 +156,7 @@ body {
   color: white;
   font-size: 30px;
   font-family: Orbitron;
-
+  gap: 10px;
   align-items: flex-start;
 }
 
@@ -177,4 +177,5 @@ body {
 
 .scoreDiv {
   display: flex;
+  gap: 15px;
 }
